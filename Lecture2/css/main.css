@@ -1,0 +1,10 @@
+h1{
+    background-color: green;
+}
+.my-class{
+    background-color: red;
+    color: white;
+}
+#my-id{
+    background-color: blue;
+}
