@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:bisque;
+}
+
+.logo{
+    background-color: red;
+    height: 70px;
+    width:80%;
+    margin: auto;
+    margin-top: 6px;
+}
+.logo-content{
+    text-align: center;
+    padding-top: 20px;    
+}
+.nav-bar{
+    margin-top: 10px;
+    height: 70px;
+    background-color:red;
+}
+.content-heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:red;
+}
+
+.nav-bar-items{
+    padding-left: 450px;
+    padding-top: 15px;
+}
+.nav-bar-items a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+li{
+    display: inline;
+}
+a {
+  display: inline-block;
+  padding: 8px;
+}
+
+.container{
+    width: 80%;
+    background-color:#fff;
+    margin: auto;
+    margin-top: 20px;
+}
+.Squares{
+    height:150px;
+}
+.Squares::after{
+    content:' ';
+    display: block;
+    clear: both;
+}
+.square{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+} 
+.square1{
+    float: left;
+    margin-left: 74px;
+} 
+.square2{
+   float: left;
+   margin-left:74px;
+} 
+.square3{
+    float: right;
+    margin-right: 74px;
+} 
+.horizontal{
+    margin-top:50px;
+    border-top: 4px dashed red;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+ .square-text{
+   text-align: center;
+   padding:75px 0;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   text-decoration: none;
+   font-size: 20px; 
+} 
+
+.sub-heading{
+    margin-top:50px;
+    margin-left: 60px;
+    color:red;
+}
+.content{
+    margin-top:34px;
+    padding-bottom: 23px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align:justify;
+    
+
+}
+
+
+
+
+
