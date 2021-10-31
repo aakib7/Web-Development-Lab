@@ -1,0 +1,14 @@
+.recipe {
+  border-bottom: 3px dotted blue;
+  margin-bottom: 5px;
+}
+#updateBody{
+  width: 100%;
+  margin-top:15px;
+  border-radius: 10px;
+}
+#updateTitle{
+  width: 100%;
+  margin-top:15px;
+  border-radius: 10px;
+}
