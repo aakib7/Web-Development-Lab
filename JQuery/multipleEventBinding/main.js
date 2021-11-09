@@ -36,3 +36,4 @@ function disableHandle(){
     console.log('click disable');
     $('.clickBtn').off('mouseover');}
 
+/// Taskk 2

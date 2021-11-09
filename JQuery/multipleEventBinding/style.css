@@ -1,3 +1,13 @@
 .red-class {
   color: red;
 }
+.small-images {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.large-image {
+  width: 600px;
+  height: 400px;
+  cursor: pointer;
+}
