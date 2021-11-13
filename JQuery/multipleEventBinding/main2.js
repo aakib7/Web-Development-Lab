@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('#image1').on('click', largeImageHandle);
     $('#image1').on('click', addImage);
+    $('.container').append('<div class="copied-images"></div>');
 });
 
 function largeImageHandle(){
@@ -10,7 +11,6 @@ function largeImageHandle(){
 }
 
 function addImage(){
-    var image_src = $('.small-images').attr('src');
-    $('.container').append('<div class="copied-images"></div>');  
+    var image_src = $('.small-images').attr('src');  
     $('.copied-images').append(`<img src="${image_src}" class="small-image" />`)
 }
