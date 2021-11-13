@@ -1,0 +1,18 @@
+.hide-content {
+  display: none;
+}
+.stylePara1 {
+  border-top: 1px solid black;
+  background-color: red;
+  margin-bottom: 23px;
+}
+.stylePara2 {
+  border-top: 2px solid blue;
+  background-color: yellow;
+  margin-bottom: 23px;
+}
+.stylePara3 {
+  border-top: 2px solid green;
+  background-color: blue;
+  margin-bottom: 23px;
+}

@@ -5,9 +5,14 @@
   width: 100px;
   height: 100px;
   cursor: pointer;
+  margin-left: 30px;
+  cursor: pointer;
 }
 .large-image {
   width: 600px;
   height: 400px;
+  cursor: pointer;
+}
+#imgdl {
   cursor: pointer;
 }
